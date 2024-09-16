@@ -1,0 +1,14 @@
+# Local script used to build repo history (not needed in repo)
+build-history.sh
+
+# Chrome extension packaging
+*.pem
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
