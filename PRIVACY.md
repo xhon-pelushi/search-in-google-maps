@@ -37,12 +37,9 @@ Any information you see on Google Maps (including search results) is handled sol
 
 ## Permissions explained
 
-The extension requests the following Chrome permissions:
+The extension requests the following Chrome permission:
 
-- **contextMenus** – used only to add a single right‑click menu item ("Search in Google Maps") when you have text selected.
-- **tabs** – used only to open a new tab to `https://www.google.com/maps/search` with your selected text as the query. The extension does not read the contents of your tabs.
-
-These permissions are required solely to implement the extension's single purpose.
+- **contextMenus** – used only to add a single right‑click menu item ("Search in Google Maps") when you have text selected. Choosing it opens a new tab to Google Maps with your selected text as the search query. No other permissions are required.
 
 ## Third‑party services
 
